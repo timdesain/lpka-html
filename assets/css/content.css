@@ -6,16 +6,8 @@ aside{margin-top:30px;}
 aside .entry-item,
 aside a,aside .contact-list {font-family:var(--font-heading)}
 
-.cat-item a {
-position:absolute;
-background-image:url(../images/square-03.jpg);
-background-repeat:no-repeat;
-background-size:cover;
-right:15px;
-left:15px;
-top:15px;
-bottom:15px;
-display:block
+.cat-item a {position:absolute;right:15px;left:15px;top:15px;bottom:15px;display:block;
+background-image:url(../images/square-03.jpg);background-repeat:no-repeat;background-size:cover;
 }
 
 .cat-item a:after {
@@ -27,11 +19,7 @@ left:0;
 right:0;
 content:"";
 display:block;
--webkit-transition:.4s ease;
--moz-transition:.4s ease;
--ms-transition:.4s ease;
--o-transition:.4s ease;
-transition:.4s ease
+-webkit-transition:.4s ease;-moz-transition:.4s ease;-ms-transition:.4s ease;-o-transition:.4s ease;transition:.4s ease
 }
 .cat-item .cat-title {font-weight:400;color:#fff;font-size:1.3em;z-index:3;margin:0}
 
